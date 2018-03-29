@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/set_threshold"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Set Threshold" />
+        <item
+            android:id="@+id/scan_product"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Scan Product" />
+        <item
+            android:id="@+id/view_offer"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="View Offer" />
+
+        <item android:id="@+id/view_cart"
+            android:icon="@mipmap/addd"
+            android:title="View Cart" />
+        <item
+            android:id="@+id/view_history"
+            android:icon="@mipmap/cddd"
+            android:title="View History" />
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/change_password"
+                android:icon="@mipmap/password"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
